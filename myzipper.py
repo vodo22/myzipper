@@ -16,6 +16,7 @@ import zipfile
 
 CONFIG_FILE = "myzipper.config"
 TARGET_FILE = "backup_%s.zip"
+
 ##
 # 
 def read_listfile(list_filename=CONFIG_FILE):
@@ -45,7 +46,7 @@ def add_dir(zf, file_path):
 
 ##
 #
-def main(args):
+def main():
 
   all_entries = read_listfile()
 
@@ -69,5 +70,5 @@ def main(args):
 
 
 if __name__ == '__main__':
-  main(None)
+  main()
 
