@@ -1,9 +1,10 @@
-# MyZipper
+# myzipper
 
 Simple script to backup config files and folders
 
 2019-05-20
-VoDo
+VoDo 
+volker.dorna@gis-ag.com
 
 ## What is it good for?
 The idea is to have a script, which stores  config files and folders, which are spread over the system-
